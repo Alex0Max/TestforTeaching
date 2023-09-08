@@ -1,8 +1,13 @@
+import GameStat from "./components/gameStat/GameStat";
+import PlayersStat from "./components/playersStat/PlayersStat";
+
 function App() {
   return (
-    <div>
-      Hello world
-    </div>
+    <>
+    Hello project
+      < GameStat />
+      <PlayersStat />
+    </>
   );
 }
 
