@@ -4,9 +4,14 @@ import PlayersStat from "./components/playersStat/PlayersStat";
 function App() {
   return (
     <>
-    Hello project
-      < GameStat />
-      <PlayersStat />
+      Hello project
+      <div style={{
+        display:'flex',
+        flexDirection:'row'
+      }}>
+      <PlayersStat/>
+      <GameStat/>
+      </div>
     </>
   );
 }
